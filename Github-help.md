@@ -32,6 +32,9 @@ Then Submit a pull request
   pu = !"git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   ```
   
+  Now if you run ```git pu`` it will fetch your origin, and upstream.  Then merge upstream/master.
+  
+  
   For example here is my config afterwords:
   
   ```
