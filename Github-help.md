@@ -7,7 +7,7 @@
   3) ```git merge upstream/master```
   
   If an error message occurs that 'upstream' doesn't exist then run: 
-  ```git remote add upstream https://github.com/evitics/documentation.git```
+  ```git remote add upstream https://github.com/evitics/*****repo name*****.git```
   
 ###Updating a local Repo###
  
