@@ -1,7 +1,9 @@
-===Creating a Variable===
+###Creating a Variable###
+
 ```$name = "Colin Bookman";```
 
-===Creating a function===
+###Creating a function###
+
 ```
 function foo($name) {
   echo "My name is: " . $name;
@@ -9,14 +11,18 @@ function foo($name) {
 
 assert(foo("Colin") === "My name is: Colin");
 ```
-===Creating a class===
 
-==Public vs Private vs Protected==
+
+###Creating a class###
+
+##Public vs Private vs Protected##
+
   * Public: anyone either inside the class or outside can access them
   * Private: only the specified class can access them. Even subclasses will be denied access.
   * Protected: only the specified class and subclasses can access them
 
-==Instantiated class==
+##Instantiated class##
+
 ```
 Class Person {
   public $name,$age;
